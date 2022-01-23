@@ -63,7 +63,9 @@
       <section class="main-header">
         <div class="container">
           <h1 class="hero-header">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="purchase-button">Заказать услугу</button>
+          <button type="button" class="purchase-button" onclick="purchaseService()">
+            Заказать услугу
+          </button>
         </div>
       </section>
 
@@ -418,6 +420,15 @@
         </div>
       </div>
     </footer>
+    <div id="backdrop" class="backdrop is-hidden">
+      <div class="modal">
+        <button class="close-icon" onclick="closeModal()">
+          <svg class="close-modal">
+            <use href="./images/icons.svg#close-icon"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
