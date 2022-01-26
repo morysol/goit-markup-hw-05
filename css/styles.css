@@ -797,7 +797,7 @@ img {
 }
 
 .backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0.5, 0.5);
+  transform: translate(-50%, -50%) scale(0.5, 0.5) rotate(45deg);
 }
 
 .modal {
